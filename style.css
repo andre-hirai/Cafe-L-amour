@@ -1,0 +1,995 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG1.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 150px;
+  font-family: lato;
+  font-weight: 400;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 8px;
+  margin-left: 100px;
+}
+
+.nav-header {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: white;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.nav-item {
+  padding: 3px 0;
+  border: solid 1px transparent;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  border-bottom: #e75e30 solid 1px;
+  cursor: pointer;
+}
+
+.sub-titulo {
+  color: #e75e30;
+  font-family: lato;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.titulo {
+  color: #f8f8f8;
+  font-family: lato;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+#saiba-mais1 {
+  font-family: lato;
+  font-weight: 600;
+  font-size: 12px;
+  color: #f8f8f8;
+  background: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px #f8f8f8 solid;
+  transition: 0.6s;
+}
+
+#saiba-mais1:hover {
+  background-color: #e75e30;
+  color: #232323;
+  border: none;
+  cursor: pointer;
+}
+
+/*MAIN-ACIMA*/
+.article {
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG2-noise.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center top;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 300px;
+}
+
+.textos-article {
+  font-family: lato;
+}
+
+.img-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.titulo2 {
+  display: inline;
+  color: #e75e30;
+  font-size: 50px;
+}
+
+.linha {
+  margin: 10px 0px;
+  width: 400px;
+  height: 3px;
+  background-color: #e75e30;
+}
+
+.descricao2 {
+  padding-right: 100px;
+  color: #e75e30;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 24px;
+}
+
+/*Abaixo - grid*/
+.grid-section {
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG3-noise-orange.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center top;
+  background-size: cover;
+  font-family: lato;
+  display: grid;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10vh 20vh 50px 25vh;
+  grid-template-areas:
+    "s3 s3 s3"
+    "i1 i2 i3"
+    "t1 t2 t3"
+    "p1 p2 p3";
+
+  justify-content: center;
+  align-items: start;
+}
+
+#titulo-sec3 {
+  text-transform: uppercase;
+  grid-area: s3;
+  justify-self: center;
+  align-self: center;
+  font-size: 50px;
+  border-bottom: solid 2px #232323;
+  padding-top: 50px;
+}
+
+.grid-section>.titulo-item {
+  font-size: 30px;
+}
+
+#imggrid1 {
+  grid-area: i1;
+  justify-self: center;
+  align-self: center;
+}
+
+#titulo-item1 {
+  text-align: center;
+}
+
+#descricao-item1 {
+  grid-area: p1;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+#imggrid2 {
+  grid-area: i2;
+  justify-self: center;
+  align-self: center;
+}
+
+#titulo-item2 {
+  grid-area: t2;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+#descricao-item2 {
+  grid-area: p2;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+#imggrid3 {
+  grid-area: i3;
+  justify-self: center;
+  align-self: center;
+}
+
+#titulo-item3 {
+  grid-area: t3;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+#descricao-item3 {
+  grid-area: p3;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.titulo3 {
+  grid-area: t3;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.grid-section>img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.titulo-item {
+  font-family: "Cafe Brasil";
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.descricao-item {
+  font-style: italic;
+  font-size: 24px;
+}
+
+/*GRID section grãos*/
+.section4 {
+  height: 70vh;
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG4-noise-orange.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center top;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#img-sec4 {
+  width: 100%;
+  width: 100rem;
+  position: relative;
+  bottom: 1rem;
+  right: 50px;
+}
+
+.textos-sec4 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 100%;
+}
+
+#titulosec4 {
+  font-size: 50px;
+  color: #e75e30;
+  text-transform: uppercase;
+}
+
+#descricao-sec4 {
+  padding-top: 8px;
+  font-family: lato;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: italic;
+  color: #e75e30;
+  margin-bottom: 8rem;
+  margin-right: 6rem;
+}
+
+/*Section5*/
+.section5 {
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG4-noise-sec5.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center top;
+  background-size: cover;
+}
+
+.section5-content {
+  padding: 0 10rem;
+  display: flex;
+  align-items: center;
+  height: 70vh;
+}
+
+.textos-sec5 {
+  padding-right: 10rem;
+}
+
+.descricao-sec5 {
+  padding-top: 8px;
+  padding-right: 15rem;
+  font-size: 24px;
+  font-family: lato;
+  font-weight: 400;
+  font-style: italic;
+  color: #f59727;
+  transition: 0.3s;
+}
+
+.bloco-torra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+#bloco-claro {
+  background-color: #f59727;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#bloco-medio {
+  background-color: #e75e30;
+  border-radius: 10px;
+  height: 15px;
+  width: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#bloco-escuro {
+  background-color: #ff3f29;
+  border-radius: 10px;
+  height: 15px;
+  width: 50px;
+  transition: 0.3s;
+}
+
+.titulo-sec5 {
+  font-family: lato;
+  font-size: 50px;
+  color: #f59727;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+#btn-sec5 {
+  border: solid 1px #f59727;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #f59727;
+  font-family: lato;
+  font-weight: 600;
+  padding: 7px 14px;
+  margin-top: 15px;
+  margin-bottom: 4rem;
+  transition: 0.6s;
+}
+
+#btn-sec5:hover {
+  background-color: #f59727;
+  color: #232323;
+}
+
+.img-sec5 {
+  width: 100%;
+  width: 60rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.section-form {
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG2-noise.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 10rem;
+}
+
+.abas-sec6 {
+  display: flex;
+  gap: 5rem;
+  font-family: lato;
+  font-size: 22px;
+  color: #f8f8f8;
+
+  padding-bottom: 8rem;
+  position: relative;
+}
+
+#encha-o-tanque {
+  color: #e75e30;
+  text-transform: uppercase;
+}
+
+#ipt-form {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 50px;
+  font-family: lato;
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: solid 1px #e75e30;
+  padding: 6px 10px;
+}
+
+.descricao-sec6 {
+  font-family: lato;
+  font-size: 24px;
+  padding-right: 20rem;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 15rem;
+}
+
+.icons>img {
+  margin-right: 10px;
+}
+
+.container-linha {
+  display: flex;
+  justify-content: center;
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG2-noise.png");
+}
+
+.linha-footer {
+  height: 3px;
+  width: 80%;
+  justify-self: center;
+  background-color: #e75e30;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG2-noise.png");
+}
+
+.logo-xicara {
+  width: 10rem;
+  margin: 3rem 7rem;
+}
+
+.nav-btn-footer {
+  display: flex;
+  font-family: lato;
+  font-weight: 300;
+  gap: 30px;
+  margin-right: 10rem;
+  color: #f8f8f8;
+}
+
+.nav-item-footer:hover {
+  color: #e75e30;
+  cursor: pointer;
+}
+
+/*Query tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG1-768x1080-1.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+
+  .nav-header {
+    padding-left: 100px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .sub-titulo {
+    font-size: 18px;
+  }
+
+  .titulo {
+    font-size: 40px;
+  }
+
+  #saiba-mais1 {
+    margin-bottom: 100px;
+  }
+
+  /*Sec2*/
+  .img-2 {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    right: 20px;
+  }
+
+  .article {
+    padding: 0px;
+  }
+
+  .titulo2 {
+    font-size: 40px;
+  }
+
+  .linha {
+    width: 200px;
+  }
+
+  .descricao2 {
+    padding-right: 5rem;
+    font-size: 16px;
+  }
+
+  /*Sec3*/
+  #titulo-sec3 {
+    font-size: 40px;
+  }
+
+  #titulo-item1 {
+    font-size: 24px;
+  }
+
+  #titulo-item2 {
+    font-size: 24px;
+  }
+
+  #titulo-item3 {
+    font-size: 24px;
+  }
+
+  .descricao-item {
+    font-size: 16px;
+  }
+
+  #descricao-item1 {
+    padding: 0 1rem;
+  }
+
+  #descricao-item2 {
+    padding: 0 1rem;
+  }
+
+  #descricao-item3 {
+    padding: 0 1rem;
+  }
+
+  #imggrid1 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #imggrid2 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #imggrid3 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  /*Sec4*/
+  .textos-sec4 {
+    padding-left: 1rem;
+  }
+
+  #img-sec4 {
+    width: 30rem;
+  }
+
+  #titulosec4 {
+    font-size: 30px;
+  }
+
+  #descricao-sec4 {
+    font-size: 18px;
+    margin-right: 1rem;
+  }
+
+  /*Sec5*/
+  .section5-content {
+    background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG4-noise-orange.png");
+    padding: 0%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 40vh;
+  }
+
+  .img-sec5 {
+    width: 25rem;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    position: relative;
+    bottom: 0;
+  }
+
+  .textos-sec5 {
+    padding: 0px;
+  }
+
+  .titulo-sec5 {
+    font-size: 30px;
+  }
+
+  .descricao-sec5 {
+    padding: 0%;
+    font-size: 18px;
+  }
+
+  #btn-sec5 {
+    margin-bottom: 200px;
+  }
+
+  /*Sec6*/
+  .section-form {
+    padding: 0%;
+    padding: 3rem 5rem;
+  }
+
+  .abas-sec6 {
+    gap: 20px;
+  }
+
+  #ipt-form {
+    font-size: 30px;
+    width: 20rem;
+    padding: 0%;
+  }
+
+  .descricao-sec6 {
+    padding: 0%;
+    font-size: 18px;
+  }
+
+  #img-sec6 {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .nav-btn-footer {
+    margin-right: 5rem;
+  }
+
+  .nav-item-footer {
+    font-size: 16px;
+  }
+
+  .logo-xicara {
+    width: 8rem;
+    margin: 0%;
+    margin: 10px 0px;
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 1rem;
+    margin: 0%;
+    gap: 50px;
+  }
+
+  body {
+    background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG1-425x875-1.png");
+    background-attachment: fixed;
+    background-position: cover;
+    background-size: 100%;
+    overflow: auto;
+  }
+
+  .main {
+    margin: 0%;
+    padding-left: 25px;
+    padding-right: 50px;
+    height: 50vh;
+  }
+  .sub-titulo{
+    font-size: 16px;
+  }
+#saiba-mais1{
+  margin-bottom: 8rem;
+  width: 100px;
+  height: 30px;
+}
+  .titulo {
+    font-size: 30px;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .nav-header {
+    padding: 0px;
+    font-size: 12px;
+    gap: 5px;
+  }
+
+  .article {
+    justify-content: start;
+    background-size: 100%;
+
+    background-repeat: repeat;
+    overflow: auto;
+  }
+
+  #sec2 {
+    padding: 0 5rem;
+    height: 50vh;
+  }
+
+  .img-2 {
+    display: none;
+  }
+
+  .titulo2 {
+    font-size: 30px;
+  }
+
+  .linha {
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100px;
+    border-bottom: solid 0.5px #e75e30;
+  }
+
+  .descricao2 {
+    padding: 0%;
+    padding-right: ;
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .grid-section>img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  #titulo-item1 {
+    font-size: 18px;
+    padding: 0%;
+  }
+
+  #titulo-item2 {
+    font-size: 18px;
+    padding: 0%;
+  }
+  #titulo-item3 {
+    font-size: 18px;
+    padding: 0%;
+  }
+  #descricao-item1, #descricao-item2, #descricao-item3{
+    position: relative;
+    bottom: 10px;
+  }
+  #descricao-item1 {
+    font-size: 12px;
+    padding: 0%;
+    margin: 0px;
+  }
+
+  #descricao-item2 {
+    font-size: 12px;
+    padding: 0%;
+    margin: 0px;
+  }
+
+  #titulo-sec3 {
+    font-size: 30px;
+  }
+
+  #descricao-item3 {
+    font-size: 12px;
+    padding: 0%;
+    margin: 0px;
+  }
+
+  .section4 {
+    height: 60vh;
+  }
+
+  .textos-sec4 {
+    margin: 0%;
+    padding: 0%;
+
+  }
+
+  #img-sec4 {
+    width: 20rem;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    right: 10rem;
+  }
+
+  .bloco-torra {
+    width: 8rem;
+  }
+
+  #titulosec4 {
+    font-size: 25px;
+    padding-top: 5rem;
+    width: 10rem;
+
+  }
+
+  .textos-sec4 {
+    width: 10rem;
+    padding: 0px;
+    margin: 0%;
+    position: relative;
+    right: 10rem;
+  }
+
+  #descricao-sec4 {
+    font-size: 12px;
+    margin: 0%;
+  }
+
+  .section5 {
+    background-image: url("http://studiomadearte.com.br/wp-content/uploads/2022/06/BG4-noise-orange.png");
+    height: 60vh;
+  }
+
+  .titulo-sec5 {
+    font-size: 20px;
+  }
+
+  .section5-content {
+    margin: 0%;
+    padding: 0%;
+    padding: 0px 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .titulo-sec5 {
+    font-size: 30px;
+  }
+
+  .textos-sec5 {
+    padding: 0%;
+    margin: 0%;
+    padding: 0 2rem;
+  }
+
+  .descricao-sec5 {
+    font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+  }
+.bloco-torra{
+  margin-top: -3rem;
+}
+  .img-sec5 {
+    width: 17rem;
+    bottom: 0%;
+    position: relative;
+    bottom: 4rem;
+  }
+  #btn-sec5{
+    padding: 0%;
+    margin: 0%;
+    margin: 20px 0px;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  #img-sec6 {
+    width: 5rem;
+    margin: 0px;
+    margin-bottom: 3rem;
+  }
+
+  .descricao-sec6 {
+    padding: 0px;
+  }
+
+  #ipt-form {
+    width: 10rem;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .section-form {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .logo-xicara {
+    width: 8rem;
+    margin: 0%;
+  }
+  #btn-sec5{
+    width: 5rem;
+  }
+  .section-form{
+  padding: 2rem 2rem;
+  align-items: center;
+  flex-wrap: wrap ;
+  height: 80vh;
+  
+  }
+  .abas-sec6{
+    gap: 2rem;
+    padding-bottom: 3rem;
+  }
+  #ipt-form{
+    width: 17rem;
+    font-size: 18px;
+    padding-right: 2rem;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+  }
+  .descricao-sec6{
+    font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 1rem;
+
+  }
+  .icons > img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    padding:0%;
+  }
+  #img-sec6{
+    width: 15rem;
+    margin: 0% auto;
+    padding: 0%;
+  }
+  .nav-btn-footer{
+    gap: 2rem;
+  }
+  .nav-item-footer{
+    display: none;
+    font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+    gap: 0px;
+  }
+  .logo-xicara{
+
+    width:5rem;
+    margin: 2rem 1rem ;
+  }
+}
+
+
+/*Padrões
+sub - 18px
+titulo - 40px
+*/
