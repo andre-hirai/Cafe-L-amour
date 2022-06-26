@@ -585,9 +585,11 @@ body {
 }
 #ipt-form{
   padding-right: 10rem;
+  width: 30rem;
+  font-size: 40px;
 }
 .descricao-sec6{
-  padding-right: 30rem;
+  padding-right: 10rem;
 }
 
 }
