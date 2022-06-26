@@ -4,6 +4,11 @@ var bnt=document.querySelector("input#btn-sec5")
 var claro=document.querySelector("div#bloco-claro")
 var medio=document.querySelector("div#bloco-medio")
 var escuro=document.querySelector("div#bloco-escuro")
+var form=document.querySelector("input#ipt-form")
+
+function falta(){
+    form.innerText = "*Endereço de E-mail"
+}
 
 function clara(){
     var claro=document.querySelector("div#bloco-claro")
@@ -36,3 +41,4 @@ function saiu2(){
 function saiu3(){
     escuro.style.height= '15px'
 }
+
