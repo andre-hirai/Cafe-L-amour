@@ -6,8 +6,7 @@ Projeto inteiramente codado sem uso de Frameworks, famoso 'na unha'
 O Design foi feito através do Adobe Illustrator
 As imagens foram adaptadas para a Web através do Adobe Photoshop
 
-
-*Tempo investido no projeto, 4 dias
+andre-hirai.github.io/Cafe-L-amour
 
 Linguagens usadas:
 HTML, CSS e JS
