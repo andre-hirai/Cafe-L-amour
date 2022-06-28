@@ -1,4 +1,4 @@
-Projeto realizado a partir do completo zero.
+**Projeto realizado a partir do completo zero.**
 Desde idealização do projeto, a Identidade visual da "empresa"
 Uma experiência completa, do design de interface ao design da web.
 
@@ -11,5 +11,6 @@ Linguagens usadas:
 HTML, CSS e JS
 
 
-andre-hirai.github.io/Cafe-L-amour
-- Studio Made Art - 2022
+[Link do projeto pronto!](andre-hirai.github.io/Cafe-L-amour)
+
+*Studio Made Art - 2022*
