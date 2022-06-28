@@ -11,6 +11,6 @@ Linguagens usadas:
 HTML, CSS e JS
 
 
-[Link do projeto pronto!](andre-hirai.github.io/Cafe-L-amour)
+[Link do projeto pronto!](https://andre-hirai.github.io/Cafe-L-amour)
 
 *Studio Made Art - 2022*
